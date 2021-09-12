@@ -13,5 +13,19 @@
     "node-sass": "^6.0.1",
     "nodemon": "^2.0.12"
   },
-  "description": ""
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liensanchez/celushop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/liensanchez/celushop/issues"
+  },
+  "homepage": "https://github.com/liensanchez/celushop#readme",
+  "description": "",
+  "dependencies": {
+    "@popperjs/core": "^2.10.1",
+    "i": "^0.3.6",
+    "npm": "^7.23.0",
+    "popper": "^1.0.1"
+  }
 }
