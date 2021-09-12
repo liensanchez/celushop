@@ -6808,5 +6808,9 @@
 
   return index_umd;
 
+  var offcanvasElementList = [].slice.call(document.querySelectorAll('.offcanvas'))
+var offcanvasList = offcanvasElementList.map(function (offcanvasEl) {
+  return new bootstrap.Offcanvas(offcanvasEl)
+})
 })));
 //# sourceMappingURL=bootstrap.bundle.js.map
