@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
   padding: 0;
   margin: 0;
@@ -20,4 +21,28 @@
     width: 45px;
     height: 45px;
   }
+=======
+*{
+  padding: 0;
+  margin: 0;
+}
+.posicion{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+@media only screen and (min-width : 1024px){
+  .container-carousel{
+    display: none;  
+  }
+}
+@media only screen and (max-width : 1024px){
+  .container-arreglos{
+    display: none;
+  }
+  .rounded-circle{
+    width: 45px;
+    height: 45px;
+  }
+>>>>>>> 967fc038c8d35e8a5d5ff2f6a9f56f0806ccbb96
 }
