@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,108 +12,58 @@
 </head>
 <body>
 <!--nav-->
-<div class="container">
-  <div class="row">
-    <div class="col-lg-12 col-xs-12">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <img src="../images/logo.jpg" alt="logo" class="logo">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="../index.html">Sucursales</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./quieroArreglarmiEquipo.html">Quiero arreglar mi equipo</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./productos.html">Productos</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-  </div>
-</div>
-<!--Img-->
-<!--trabajos-->
-<div class="container-carousel">
-  <div class="row">
-    <div class="col-lg-12 col-xs-12">
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="../images/displayorg.jpg" class="d-block w-100" alt="...">
+<div class="menu">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-xs-12">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <img src="../images/logo.jpg" alt="logo" class="logo">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="../index.html">Sucursales</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./quieroArreglarmiEquipo.html">Quiero arreglar mi equipo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./productos.html">Productos</a>
+              </li>
+            </ul>
           </div>
-          <div class="carousel-item">
-            <img src="../images/bat1.jpg" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        </nav>
       </div>
     </div>
   </div>
 </div>
-<div class="container-arreglos">
-  <div class="row d-flex justify-content-around">
-    <img src="../images/displayorg.jpg" alt="...">
-    <img src="../images/bat1.jpg" alt="...">
-  </div>
-</div>
-<!--Form-->
 <div class="container">
-  <div class="row">
-    <div class="col-lg-12 col-xs-12">
-      <h2 class="d-flex justify-content-center">Quiero mi presupuesto</h2>
-        <form class="row gy-2 gx-3 align-items-center">
-          <div class="col-auto">
-            <input type="text" placeholder="Nombre">
-          </div>
-          <div class="col-auto">
-            <label for="number">261
-              <input type="number" placeholder="numero de telefono">
-            </label>
-          </div>
-          <div class="col-auto">
-            <select name="modelo">
-              <option value="iph6">Iphone 6/6s</option>
-              <option value="iph6+">Iphone 6+/6s+</option>
-              <option value="iph7">Iphone 7</option>
-              <option value="iph7+">Iphone 7+</option>
-              <option value="iph8">Iphone 8</option>
-              <option value="iph8+">Iphone 8+</option>
-              <option value="iphX">Iphone X</option>
-              <option value="iphXs">Iphone Xs</option>
-              <option value="iphXr">Iphone Xr</option>
-              <option value="iphXsMax">Iphone Xs Max</option>
-              <option value="iph11">Iphone 11</option>
-              <option value="iph11pro">Iphone 11 Pro</option>
-              <option value="iph11proMax">Iphone 11 Pro Max</option>
-              <option value="otro">Otro</option>
-            </select>
-          </div>
-          <div class="col-auto">
-            <textarea name="text" id="text" placeholder="Contanos tu problema" cols="30" rows="3"></textarea>
-          </div>
-          <div class="col-auto">
-            <button type="submit" class="btn btn-primary">Enviar</button>
-          </div>
-      </form>
+  <div class="d-flex justify-content-around">
+    <div class="card" style="width: 18rem;">
+      <img src="../images/bat1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Whatsapp</h5>
+          <p>Consulta con nuestro Técnico</p>
+          <a href="https://api.whatsapp.com/send/?phone=+54 9 2615365049&text&app_absent=0" class="btn btn-primary" target="blank">Whatsapp</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="../images/displayorg.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Whatsapp</h5>
+          <p>Consulta con nuestro Técnico</p>
+          <a href="https://api.whatsapp.com/send/?phone=+54 9 2615365049&text&app_absent=0" class="btn btn-primary" target="blank">Whatsapp</a>
+        </div>
     </div>
   </div>
 </div>
+
 <footer>
-  <div class="d-flex justify-content-center">
+  <div class="footer">
     <a href="./redes.html"><button type="button" class="btn btn-secondary"> Redes</button></a>
+    <a href="https://www.linkedin.com/in/lien-silvio-sanchez-b988b4158/"><button type="button" class="btn btn-secondary"> Creador de la pagina</button></a>
   </div>
 </footer>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
